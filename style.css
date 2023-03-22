@@ -1,0 +1,235 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+   *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.543), rgba(0, 0, 0, 0.783)), url(img/pexels-egil-sjøholt-1906658.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.nombre{
+    font-weight: 300;
+    margin: auto;
+    width: 14.2rem;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+nav{
+    border-bottom: white solid 0.1rem;
+    margin-top: 2rem;
+    
+   
+}
+
+.links{
+    display: grid;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.hola{
+    width: 32rem;
+    margin: auto;
+    margin-top: 7rem;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0px 6px 37px 26px rgba(0,0,0,0.75);
+}
+.hola2{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.miNombre{
+    
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.Nombre{
+    font-weight: 300;
+    color: rgb(93, 255, 255);
+}
+form{
+    display: grid;
+    width: 30rem;
+    margin: auto;
+    margin-top: 7rem;
+    gap: 2rem;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0px 6px 37px 26px rgba(0,0,0,0.75);
+}
+.texto{
+    height: 10rem;
+    justify-content: left;
+    border-radius: 2rem;
+    background-color: rgb(230, 230, 230);
+    border: solid rgb(230, 230, 230);
+    
+    
+}
+.mail{
+    background-color: rgb(230, 230, 230);
+    border: solid rgb(230, 230, 230);
+    border-radius: 2rem;
+    height: 3rem;
+}
+.contacto{
+    
+    width: 16rem;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.phone{
+    margin-bottom: -0.75rem;
+}
+
+.boton{
+    border: solid cyan;
+    width: 20rem;
+    margin: auto;
+    background-color: aqua;
+    border-radius: 2rem;
+    height: 4rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.boton:hover{
+    background-color: rgb(0, 182, 182);
+    border: solid rgb(0, 182, 182);
+    color: rgb(255, 255, 255);
+}
+.warnings{
+ width: auto;
+ text-align: center;
+ margin: auto;
+ 
+}
+table{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    width: 25em;
+    text-align: center;
+    box-shadow: 0px 6px 37px 26px rgba(0,0,0,0.75);
+
+    
+}
+tr,td,th{
+    background-color: rgba(50, 212, 204, 0.76);
+    
+}
+
+.estudios, .laboral{
+    width: auto;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+.redes{
+    
+    display: flex;
+    width: 27rem;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.face, .twitter, .git{
+    border: solid;
+    border-radius: 50%;
+    padding: 1rem;
+    height: 6.8rem;
+}
+
+
+
+
+@media (min-width: 769px){
+    body{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.233)), url(img/galaxiaE.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-size: 1.8rem;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .nombre{
+        justify-content: left;
+        margin: 0;
+        padding-top: 2rem;
+        width: 22rem;
+
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hola{
+        text-align: left;
+        margin: 10rem 7rem;
+        width: 80rem;
+        font-size: 2.5rem;
+        
+    }
+    .contacto{
+        margin-top: 10rem;
+    }
+    form{
+        padding: 6rem;
+        width: 60rem;
+        height: 40rem;
+    }
+    .contacto{
+        font-size: 2.5rem;
+        width: 23rem;
+
+    }
+    .mail{
+        height: 5rem;
+        border-radius: 5rem;
+    }
+    .texto{
+        height: 15rem;
+        border-radius: 2rem;
+    }
+    table{
+        width: 150rem;
+    }
+    
+    
+
+}
+

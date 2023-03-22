@@ -1,0 +1,64 @@
+{
+    
+    "active": true,
+    "entrenos": [
+      {
+        "img": "./img/proyecto1.jpg",
+        "titulo": "Social Proof",
+        "lenguajes": [
+          "HTML","CSS"
+        ]
+        
+      },
+      {
+        "img": "./img/proyecto4.jpg",
+        "titulo": "News Home Page",
+        "lenguajes": [
+          "HTML","CSS"
+        ]
+        
+      },
+      {
+        "img": "./img/proyecto2.jpg",
+        "titulo": "Four Card",
+        "lenguajes": [
+          "HTML","CSS"
+        ]
+      },
+      
+      
+      {
+        "img": "./img/proyecto5.jpg",
+        "titulo": "Interactive Card",
+        "lenguajes": [
+          "HTML","CSS", "Java Script"
+        ]
+        
+      },
+      {
+        "img": "./img/proyecto6.jpg",
+        "titulo": "Stats Preview",
+        "lenguajes": [
+          "HTML","CSS"
+        ]
+        
+      },
+      {
+        "img": "./img/proyecto7.jpg",
+        "titulo": "Base Apparel",
+        "lenguajes": [
+          "HTML","CSS"
+        ]
+        
+      },
+      {
+        "img": "./img/proyecto3.jpg",
+        "titulo": "Fylo Dark",
+        "lenguajes": [
+          "HTML","CSS","Java Script"
+        ]
+        
+      }
+
+    ]
+  }
